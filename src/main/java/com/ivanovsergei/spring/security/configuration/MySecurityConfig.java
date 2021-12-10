@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.User;
 public class MySecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        super.configure(auth);
+
 
         User.UserBuilder userBuilder = User.withDefaultPasswordEncoder();//временный метод, декодер в памяти
         //плохая практика, подходит для тестов

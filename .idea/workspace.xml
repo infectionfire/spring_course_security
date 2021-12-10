@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a687a1b7-e73e-4762-8de2-7a844c63a954" name="Changes" comment="New Spring Security application">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-all-employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-hr.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-managers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MySecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MySecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-all-employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-all-employees.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639135445469</updated>
       <workItem from="1639135446741" duration="80000" />
-      <workItem from="1639136079718" duration="2315000" />
+      <workItem from="1639136079718" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="New Spring Security application">
       <created>1639137534219</created>
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639137534219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Spring Security application">
+      <created>1639138657235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639138657235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
