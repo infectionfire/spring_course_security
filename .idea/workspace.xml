@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a687a1b7-e73e-4762-8de2-7a844c63a954" name="Changes" comment="Change spring-security-config, did not run on an older version">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MySecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivanovsergei/spring/security/configuration/MySecurityConfig.java" afterDir="false" />
+    <list default="true" id="a687a1b7-e73e-4762-8de2-7a844c63a954" name="Changes" comment="Add autorization method">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-all-employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view-for-all-employees.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639135445469</updated>
       <workItem from="1639135446741" duration="80000" />
-      <workItem from="1639136079718" duration="4017000" />
+      <workItem from="1639136079718" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="New Spring Security application">
       <created>1639137534219</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639139536091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add autorization method">
+      <created>1639140340590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639140340590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Spring Security application" />
     <MESSAGE value="Change spring-security-config, did not run on an older version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change spring-security-config, did not run on an older version" />
+    <MESSAGE value="Add autorization method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add autorization method" />
   </component>
 </project>

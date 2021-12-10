@@ -32,6 +32,9 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
+        //блокирует возможность просмотра информации по прямым ссылкам пользователям не той роли
+        //проверяет роли
         http.authorizeRequests()//запрос авторизации определенных урл
                 .antMatchers("/").hasAnyRole("EMPLOYEE","HR","MANAGER")//адрес для всех ролей
                 .antMatchers("/hr_info").hasRole("HR")//адрес для конкретных ролей
