@@ -15,7 +15,7 @@ public class MyConfig {
 
 
     @Bean
-    public ViewResolver vievResolver(){
+    public ViewResolver viewResolver(){
         InternalResourceViewResolver internalResourceViewResolver =
                 new InternalResourceViewResolver();
         internalResourceViewResolver.setPrefix("/WEB-INF/view/");
